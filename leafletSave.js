@@ -10,6 +10,7 @@ var connection = mysql.createConnection({
   password : 'test',
   database : 'isuextensions'
 });
+//test comment
 
 connection.connect();
 connection.query('Select latLng from geoLocation where valId= 1', function(err, rows, fields) {
